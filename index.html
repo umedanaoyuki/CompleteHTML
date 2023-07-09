@@ -9,76 +9,23 @@
 <body>
     
     <form>
-        <!-- divタグを使用すると部品を縦に並べることになる -->
         <div>
-            <!-- 関連付けたいid属性 -->
-            <label for="name">お名前</label>
-            <!-- 1行のみのインプット -->
-            <input type="text" id="name" value="山田太郎">
-        </div>
-
-        <div>
-            <fieldset>
-                <legend>対象の商品</legend>
-                <label>
-                    <input type="checkbox" checked="checked">商品A
-                </label>
-                
-                <label>
-                    <input type="checkbox" checked="checked">商品B
-                </label>
-    
-                <label>
-                    <input type="checkbox">商品C
-                </label>
-            </fieldset>
-        </div>
-
-        <div>
-            <fieldset>
-                <legend>延長保証の状況</legend>
-                <label>
-                    <input type="radio" name="warranty">加入済み
-                </label>
-                
-                <label>
-                    <input type="radio" name="warranty" checked>未加入
-                </label>
-    
-                <label>
-                    <input type="radio" name="warranty">不明
-                </label>
-            </fieldset>
-        </div>
-
-        <div>
-            <label>
-            種別
-            <select>
-                <option>--お問い合わせ種別を選んでください--</option>
-                <option>商品が届かない</option>
-                <option>商品が壊れた</option>
-                <option selected>間違えて注文した</option>
-                <option>決済手段を変えたい</option>
-                <option>その他</option>
-            </select>
-            </label>
-        </div>
-
-        <div>
-            <label for="content">内容</label>
-            <!-- 改行を含むテキストインプット -->
-            <textarea id="content">こんにちは
-こんにちは</textarea>
-        </div>
-
-        <div>
-            <!-- 最近はbuttonタグを使用 -->
-            <button>送信</button>
-            <!-- <input type="submit" value="送信"> -->
+            <label>お名前<input type="text"></label>
         </div>
         
-        
+        <div>
+            <label>パスワード<input type="password"></label>
+        </div>
+
+        <div>
+            <label>数量<input type="number"></label>
+        </div>
+
+        <div>
+            <label>日付<input type="date"></label>
+        </div>
+
+
     </form>
 
 
