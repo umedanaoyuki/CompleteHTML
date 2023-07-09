@@ -14,18 +14,18 @@
             <!-- 関連付けたいid属性 -->
             <label for="name">お名前</label>
             <!-- 1行のみのインプット -->
-            <input type="text" id="name">
+            <input type="text" id="name" value="山田太郎">
         </div>
 
         <div>
             <fieldset>
                 <legend>対象の商品</legend>
                 <label>
-                    <input type="checkbox">商品A
+                    <input type="checkbox" checked="checked">商品A
                 </label>
                 
                 <label>
-                    <input type="checkbox">商品B
+                    <input type="checkbox" checked="checked">商品B
                 </label>
     
                 <label>
@@ -42,7 +42,7 @@
                 </label>
                 
                 <label>
-                    <input type="radio" name="warranty">未加入
+                    <input type="radio" name="warranty" checked>未加入
                 </label>
     
                 <label>
@@ -58,7 +58,7 @@
                 <option>--お問い合わせ種別を選んでください--</option>
                 <option>商品が届かない</option>
                 <option>商品が壊れた</option>
-                <option>間違えて注文した</option>
+                <option selected>間違えて注文した</option>
                 <option>決済手段を変えたい</option>
                 <option>その他</option>
             </select>
@@ -68,7 +68,8 @@
         <div>
             <label for="content">内容</label>
             <!-- 改行を含むテキストインプット -->
-            <textarea id="content"></textarea>
+            <textarea id="content">こんにちは
+こんにちは</textarea>
         </div>
 
         <div>
